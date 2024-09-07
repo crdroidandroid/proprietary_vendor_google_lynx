@@ -601,7 +601,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.google.edgetpu_app_service@1.0-service",
+	name: "vendor.google.edgetpu_app_service@1.0-service.xml",
 	owner: "google",
 	src: "proprietary/system_ext/etc/vintf/manifest/vendor.google.edgetpu_app_service@1.0-service.xml",
 	filename_from_src: true,
@@ -3712,7 +3712,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.authsecret-service.citadel",
+	name: "android.hardware.authsecret-service.citadel.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.authsecret-service.citadel.xml",
 	filename_from_src: true,
@@ -3721,7 +3721,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.camera.provider@2.7-service-google-apex",
+	name: "android.hardware.camera.provider@2.7-service-google-apex.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.camera.provider@2.7-service-google-apex.xml",
 	filename_from_src: true,
@@ -3730,7 +3730,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.confirmationui-service.trusty.vendor",
+	name: "android.hardware.confirmationui-service.trusty.vendor.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.confirmationui-service.trusty.vendor.xml",
 	filename_from_src: true,
@@ -3739,7 +3739,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.contexthub-service.generic",
+	name: "android.hardware.contexthub-service.generic.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.contexthub-service.generic.xml",
 	filename_from_src: true,
@@ -3748,7 +3748,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.gnss@2.1-service-brcm",
+	name: "android.hardware.gnss@2.1-service-brcm.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-brcm.xml",
 	filename_from_src: true,
@@ -3757,7 +3757,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.identity.strongbox",
+	name: "android.hardware.identity.strongbox.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.identity.strongbox.xml",
 	filename_from_src: true,
@@ -3766,7 +3766,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@service-darwinn-aidl",
+	name: "android.hardware.neuralnetworks@service-darwinn-aidl.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@service-darwinn-aidl.xml",
 	filename_from_src: true,
@@ -3775,7 +3775,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.oemlock-service.citadel",
+	name: "android.hardware.oemlock-service.citadel.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.oemlock-service.citadel.xml",
 	filename_from_src: true,
@@ -3784,7 +3784,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.security.keymint-service.citadel",
+	name: "android.hardware.security.keymint-service.citadel.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.citadel.xml",
 	filename_from_src: true,
@@ -3793,7 +3793,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.weaver-service.citadel",
+	name: "android.hardware.weaver-service.citadel.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.weaver-service.citadel.xml",
 	filename_from_src: true,
@@ -3802,7 +3802,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "com.google.edgetpu.dba-service",
+	name: "com.google.edgetpu.dba-service.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/com.google.edgetpu.dba-service.xml",
 	filename_from_src: true,
@@ -3811,7 +3811,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "com.google.edgetpu.tachyon-service",
+	name: "com.google.edgetpu.tachyon-service.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/com.google.edgetpu.tachyon-service.xml",
 	filename_from_src: true,
@@ -3820,7 +3820,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "dmd",
+	name: "dmd.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/dmd.xml",
 	filename_from_src: true,
@@ -3829,7 +3829,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "fingerprint-goodix",
+	name: "fingerprint-goodix.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/fingerprint-goodix.xml",
 	filename_from_src: true,
@@ -3838,7 +3838,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_input.processor-service",
+	name: "manifest_input.processor-service.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_input.processor-service.xml",
 	filename_from_src: true,
@@ -3847,7 +3847,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_radioext",
+	name: "manifest_radioext.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_radioext.xml",
 	filename_from_src: true,
@@ -3856,7 +3856,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_wifi_ext_aidl",
+	name: "manifest_wifi_ext_aidl.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext_aidl.xml",
 	filename_from_src: true,
@@ -3865,7 +3865,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.google.battery_mitigation-default",
+	name: "vendor.google.battery_mitigation-default.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.google.battery_mitigation-default.xml",
 	filename_from_src: true,
@@ -3874,7 +3874,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.google.edgetpu_vendor_service@1.0-service",
+	name: "vendor.google.edgetpu_vendor_service@1.0-service.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.google.edgetpu_vendor_service@1.0-service.xml",
 	filename_from_src: true,
@@ -3883,7 +3883,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.google.google_battery-default",
+	name: "vendor.google.google_battery-default.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.google.google_battery-default.xml",
 	filename_from_src: true,
@@ -3892,7 +3892,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.google.wireless_charger-default",
+	name: "vendor.google.wireless_charger-default.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.google.wireless_charger-default.xml",
 	filename_from_src: true,
